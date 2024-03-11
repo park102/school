@@ -8,7 +8,7 @@ public class school {
         Scanner scan = new Scanner(System.in);
 
         int rand = ThreadLocalRandom.current().nextInt(min, max + 1);
-        int trys = 0;
+        int trys = 1;
         boolean answer = false;
         while (!answer) {
             System.out.print("guess a number between "+min+" and "+max+" ");
